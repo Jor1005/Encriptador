@@ -1,0 +1,280 @@
+body {
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background: linear-gradient(#024456 0%, #043b48 33.33%, #03323f 66.67%, #000305 100%);
+    height: 100vh;
+    margin: 0
+} 
+
+.titulo {
+    padding: 30px;
+    border-bottom: 10px solid#000305;
+    background-color: #c2efef;
+    
+}
+
+.titulo p {
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 0;
+    font-size: 30px;
+
+}
+
+.alerta{
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 90px;
+    padding: 0%;
+}
+
+.cajaDeTextos{
+    width: auto;
+    height: auto;
+    display: flexbox;
+}
+
+.textoIngresado {
+    width: 37%;
+    height: 10%;
+    border-radius: 16px;
+    border: solid;
+    padding: 20px;
+    background-color: #d9f2f2;
+	margin-top: 50px;
+	margin-left: 80px;
+    display: inline-block;
+}
+
+.textoDevuelto{
+    width: 37%;
+    height: 10%;
+    border-radius: 16px;
+    border: solid;
+    padding: 20px;
+    background-color: #d9f2f2;
+	margin-top: 20px;
+	margin-left: 60px;
+    display: inline-block;
+}
+
+.textoI, .textoD{
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 453px;
+
+}
+
+.alerta{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.botonEn {
+    margin-top: 2%;
+    margin-left: 145px;
+    width: 150px;
+    height: 80px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 13px;
+    background: linear-gradient(#024456, #21859c, #d9f2f2 );
+    cursor: pointer;
+}
+
+.botonDes {
+    margin-top: 2%;
+    margin-left: 70px;
+    width: 150px;
+    height: 80px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 13px;
+    background: linear-gradient(#2488a7, #0a4f64, #000305  );
+    color: white;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+
+.botonCop {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 13px;
+    background: linear-gradient(#024456, #21859c, #d9f2f2);
+    cursor: pointer;
+    float: right; 
+    margin-right: 8%; 
+}
+
+.footer {
+    color: white;
+    font-size: 5px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .titulo {
+        padding: 10px;
+        margin-right: 0;
+        width: 130%;
+    }
+
+    .titulo p {
+      font-size: 20px; 
+      margin-left: 10px; 
+    }
+  
+    .cajaDeTextos{
+        text-align: center;
+    }
+
+    .textoIngresado,
+    .textoDevuelto {
+      width: 90%; 
+      margin-left: 15% ; 
+    }
+
+    .textoI, .textoD{
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 300px;
+
+    }
+
+    .alerta{
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        color: white;
+        font-size: 7px;
+        }
+    
+    .botones {
+        text-align: center;
+    }
+    
+    .botonEn, .botonDes {
+        width: 40%; 
+        margin-left: 10px; 
+        margin-top: 10px; 
+        display: inline-block; 
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .titulo {
+        padding: 10px;
+        margin-right: 0;
+        width: 130%;
+    }
+
+    .titulo p {
+      font-size: 20px; 
+      margin-left: 10px; 
+    }
+  
+    .cajaDeTextos{
+        text-align: center;
+    }
+
+    .textoIngresado,
+    .textoDevuelto {
+      width: 90%; 
+      margin-left: 15% ; 
+    }
+
+    .textoI, .textoD{
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    resize: none;
+    outline: none;
+    height: 200px;
+    width: 300px;
+
+    }
+
+    .alerta{
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        color: white;
+        font-size: 7px;
+        }
+    
+    .botones {
+        text-align: center;
+    }
+    
+    .botonEn, .botonDes {
+        width: 40%; 
+        margin-left: 10px; 
+        margin-top: 10px; 
+        display: inline-block; 
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .textoIngresado,
+    .textoDevuelto {
+      width: 90%; 
+      margin-left: 15% ; 
+    }
+  
+    .titulo {
+        padding: 30px;
+        margin-right: 0;
+        width: 130%;
+    }
+
+    .titulo p {
+      font-size: 20px; 
+      margin-left: 10px; 
+    }
+  
+    
+    .botones {
+        text-align: center;
+    }
+
+    .botonEn, .botonDes, .botonCop {
+        width: 40%; 
+        margin-left: 10px; 
+        margin-top: 10px; 
+        display: inline-block; 
+    }
+
+    .botonCop {
+        display: block; 
+        margin: 10px auto; 
+        width: 50%; 
+        float: right;
+    }
+}
